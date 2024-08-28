@@ -15,7 +15,7 @@ export const addWorkspace = (workspaceData, token) => {
 export const fetchProjects = (workspaceId) => axios.get(`${API_URL}/api/workspaces/projects/`);
 
 export const addProjectAPI = (projectData, url) => {
-  const token = localStorage.getItem('ACCESS_TOKEN);
+  const token = localStorage.getItem('ACCESS_TOKEN');
   return axios.post(url, projectData, {
       headers: {
           Authorization: `Bearer ${token}`,
