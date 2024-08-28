@@ -23,6 +23,7 @@ export const addProjectAPI = (projectData, url) => {
   });
 };
 
+
 const apiUrl = "/choreo-apis/awbo/backend/rest-api-be2/v1.0";
 
 const api = axios.create({
