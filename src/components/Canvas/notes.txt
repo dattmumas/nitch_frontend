@@ -1,0 +1,3 @@
+	•	Use react-konva or fabric.js to handle canvas drawing and manipulation.
+	•	Use react-dnd or react-rnd for drag-and-drop functionality.
+	•	Combine with react-grid-layout if you want to incorporate a grid system.
